@@ -34,4 +34,14 @@ render means its a partial with an _
 bundle install to install all gems in gem file
 
 rails g migration add_user_id_to_friends user_id:integer:index
+
+dont install production stuff in gemfile
+bundle install --without production
+```
+
+```
+heroku --version
+heroku login
+heroku create
+heroku keys:add
 ```
