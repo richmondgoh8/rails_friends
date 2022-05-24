@@ -1,0 +1,36 @@
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+rails g controller home index
+rails routes
+get prefix and add _path as the suffix
+rails g scaffold friends first_name:string last_name:string email:string phone:string twitter:string
+
+rails db:migrate
+
+render means its a partial with an _
+
+bundle install to install all gems in gem file
+
+rails g migration add_user_id_to_friends user_id:integer:index
+* ...
