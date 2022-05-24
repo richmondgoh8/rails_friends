@@ -44,4 +44,9 @@ heroku --version
 heroku login
 heroku create
 heroku keys:add
+
+git push heroku main
+
+if error do
+bundle lock --add-platform x86_64-linux
 ```
