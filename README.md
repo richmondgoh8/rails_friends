@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello my name is Richmond and I work as a Software Engineer, this is my Ruby on Rails Friend List App!
 
 Things you may want to cover:
 
@@ -21,6 +20,8 @@ Things you may want to cover:
 
 * Deployment instructions
 
+* Useful Commands
+```
 rails g controller home index
 rails routes
 get prefix and add _path as the suffix
@@ -33,4 +34,4 @@ render means its a partial with an _
 bundle install to install all gems in gem file
 
 rails g migration add_user_id_to_friends user_id:integer:index
-* ...
+```
